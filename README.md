@@ -9,12 +9,14 @@ Static marketing site for Routewell. Plain HTML and one CSS file, no build step.
 | `/` | `index.html` | Home: pitch, three packages, Process Check, care plan, how it works, about, FAQ |
 | `/demo/` | `demo/index.html` | One demo video per package. Linked from every cold email. |
 | `/process-check/` | `process-check/index.html` | The $250 paid entry offer (email 2 of the sequence) |
+| `/industries/accounting-law/` | `industries/accounting-law/index.html` | Landing page for accounting, bookkeeping and law firms (link from cold emails to that list) |
+| `/industries/construction-trades/` | `industries/construction-trades/index.html` | Landing page for construction, engineering and trades |
 | `/partners/` | `partners/index.html` | White-label pitch for MSPs |
 | `/book/` | `book/index.html` | Booking page. Every "Book a call" button points here. |
 | `/privacy/` | `privacy/index.html` | Short privacy notice |
 | 404 | `404.html` | Not-found page |
 
-Shared styles: `assets/site.css`. Header and footer are repeated in each page; if you change the nav, change it in every `index.html`.
+Shared styles: `assets/site.css`. Phone menu toggle: `assets/site.js`. Link-preview image: `assets/og.png` (1200×630). Search markup (JSON-LD) is in the `<head>` of the home and industry pages; if you change prices or FAQ answers, update it there too. Header and footer are repeated in each page; if you change the nav, change it in every `index.html`.
 
 ## Placeholders to fill (search for these comments)
 
