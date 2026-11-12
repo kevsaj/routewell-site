@@ -21,9 +21,7 @@ Shared styles: `assets/site.css`. Phone menu toggle: `assets/site.js`. Link-prev
 ## Placeholders to fill (search for these comments)
 
 - `BOOKING LINK` in `book/index.html`: replace the `mailto:` with the Microsoft Bookings URL.
-- `DEMO VIDEO` in `index.html` and `demo/index.html`: swap each placeholder for
-  `<div class="video-frame"><video src="/assets/approval-flow.mp4" controls playsinline preload="metadata"></video></div>`
-  or a YouTube (unlisted) embed. Keep files under ~20 MB; GitHub rejects files over 100 MB.
+- `DEMO VIDEO` in `index.html` and `demo/index.html`: the slots hold animated walkthroughs from `assets/video/` (MP4 + poster JPG, 1080p, about 1–2 MB each). When a real screen recording is ready, save it over the same filename (keep it under ~20 MB; GitHub rejects files over 100 MB) and remove the "Illustrated walkthrough" line under it on the demo page. The animation sources live outside this repo, in the project files under `demo-videos/src/`.
 - `PHOTO` in `index.html`: add `assets/kevin.jpg` (square, ~400 px) and use `<img class="avatar" src="/assets/kevin.jpg" alt="Kevin, founder of Routewell">`.
 
 ## Run locally
